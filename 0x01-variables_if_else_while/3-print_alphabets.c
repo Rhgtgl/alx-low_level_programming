@@ -1,17 +1,20 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+
 /**
- * main - returns alphabets both lower and upper cases
+ * main - return alphabets half and half lower and upper cases
  *
  * Return: Always 0 (Success)
  */
+
+
 int main(void)
 {
 	int ch = 'a';
-	int ch = 'A';
+	int CH = 'A';
 
-	while (ch <= 'z')
+	while (ch <= 'Z')
 	{
 		putchar(ch);
 		ch++;
