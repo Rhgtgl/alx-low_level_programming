@@ -10,7 +10,7 @@
 int main(void)
 {
 	int g;
-	
+
 
 	for (g = 48; g < 58; g++)
 	{
