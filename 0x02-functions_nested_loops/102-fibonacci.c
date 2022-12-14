@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - any
- * Return: any
+ * main - something
+ * Return: something
  */
 
 int main(void)
@@ -18,11 +18,15 @@ int main(void)
 		if (a != 20365011074)
 		{
 			printf("%ld,", a);
+			printf(',')
+			printf(' ')
 		}
 
 		else
 		{
 			printf("%ld\n", a);
+			printf(',')
+			peintf(' ')
 		}
 
 		b = a + l;
