@@ -7,7 +7,7 @@
  * Return: digits
  */
 
-int numlength, num;
+int numlength, int num;
 {
 	int length = 0;
 
