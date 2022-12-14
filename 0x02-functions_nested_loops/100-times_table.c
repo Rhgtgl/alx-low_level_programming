@@ -3,11 +3,11 @@
 
 /**
  * print_times_table - print the 100th multiplication the table
- * @p: value
+ * @p: value by the user
  * Return: Always 0 
  */
 
-void print_times_table(int q)
+void print_times_table(int p)
 {
 	int t;
 	int g;
