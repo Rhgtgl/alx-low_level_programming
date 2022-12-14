@@ -5,7 +5,7 @@
  * print_sign - prints coefficient signs
  * @n: sign numbers
  * Return: 1 if greater than zero, 0 if zero, -1 if less than zero
- * */
+ */
 
 
 int print_sign(int n)
