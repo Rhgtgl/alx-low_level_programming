@@ -2,12 +2,12 @@
 
 
 /**
- * numLength - return exact length
+ * numLength - returns the length of string
  * @num: operand number
  * Return: digits
  */
 
-int numlength(int num)
+int numlength, num;
 {
 	int length = 0;
 
