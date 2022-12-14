@@ -2,7 +2,7 @@
 
 
 /**
- * main - print _purchar followed by a new line
+ * main - print _purchar a new line follows
  * Return: Always 0 (Success)
  */
 
