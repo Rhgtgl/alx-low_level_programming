@@ -17,12 +17,12 @@ int main(void)
 	{
 		if (a != 20365011074)
 		{
-			printf("%bd,", a);
+			printf("%ld,", a);
 		}
 
 		else
 		{
-			printf("%bd\n", a);
+			printf("%ld\n", a);
 		}
 
 		b = a + l;
