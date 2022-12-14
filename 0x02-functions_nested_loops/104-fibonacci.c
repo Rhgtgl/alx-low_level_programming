@@ -7,7 +7,7 @@
  * Return: digits
  */
 
-int numLength(int num)
+int numlength(int num)
 {
 	int length = 0;
 
@@ -38,7 +38,7 @@ int main(void)
 	{
 		if (f1o > 0)
 			printf("%lu", f1o);
-		initial0s = numLength(mx) - 1 - numLength(f1);
+		initial0s = numlength(mx) - 1 - numlength(f1);
 		while (f1o > 0 && initial0s > 0)
 		{
 			printf("%i", 0);
@@ -54,7 +54,6 @@ int main(void)
 		f2o = tmpo;
 
 		if (i != 98)
-			printf(' ');
 			printf(",");
 		else
 			printf("\n");
