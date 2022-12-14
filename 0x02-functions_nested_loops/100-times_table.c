@@ -4,7 +4,7 @@
 /**
  * print_times_table - print the 100th multiplication the table
  * @p: value by the user
- * Return: Always 0 
+ * Return: Always 0
  */
 
 void print_times_table(int p)
@@ -15,7 +15,7 @@ void print_times_table(int p)
 
 	if (p < 0 || p >= 15)
 		return;
-	for (t =0; t <= p; t++)
+	for (t = 0; t <= p; t++)
 	{
 		for (g = 0; g <= p; g++)
 		{
@@ -38,7 +38,7 @@ void print_times_table(int p)
 					_putchar('0' + (l / 10));
 					_putchar('0' + (l % 10));
 				}
-				else if (l >=100)
+				else if (l >= 100)
 				{
 					_putchar('0' + (l / 100));
 					_putchar('0' + ((l / 10) % 10));
