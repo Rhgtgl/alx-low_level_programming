@@ -2,8 +2,8 @@
 
 /**
  * _isupper - check uppercase characters
- * @c: parameter
- * Return: 0 (Success)
+ * @c: parameters
+ * Return: 0 if (Successful)
  */
 
 int _isupper(int c)
