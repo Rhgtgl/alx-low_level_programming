@@ -2,7 +2,7 @@
 
 /**
  * print_number - prints an integer
- * @n: parameters
+ * @n: input parameters
  * Return: non
  */
 
@@ -13,7 +13,7 @@ void print_number(int n)
 	if (n < 0)
 	{
 		_putchar(45);
-		i = n *-1;
+		i = n * -1;
 	}
 	else
 	{
