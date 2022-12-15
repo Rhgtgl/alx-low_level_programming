@@ -3,6 +3,7 @@
 /**
  * print_number - prints an integer
  * @n: parameters
+ * Return: non
  */
 
 void print_number(int n)
@@ -12,7 +13,7 @@ void print_number(int n)
 	if (n < 0)
 	{
 		_putchar(45);
-		i = n*-1;
+		i = n *-1;
 	}
 	else
 	{
@@ -24,7 +25,7 @@ void print_number(int n)
 
 	while (j > 9)
 	{
-		j/10;
+		j /= 10;
 		count *= 10;
 	}
 
