@@ -18,15 +18,11 @@ int main(void)
 		if (a != 20365011074)
 		{
 			printf("%ld,", a);
-			printf(',')
-			printf(' ')
 		}
 
 		else
 		{
 			printf("%ld\n", a);
-			printf(',')
-			peintf(' ')
 		}
 
 		b = a + l;
