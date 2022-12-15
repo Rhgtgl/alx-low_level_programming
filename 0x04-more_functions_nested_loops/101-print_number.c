@@ -1,12 +1,13 @@
 #include "main.h"
 
 /**
- * print_number - prints integer
- * @n: param
+ * print_number - prints an integer
+ * @n: parameters
  */
+
 void print_number(int n)
 {
-	unsigned int i, j, count,
+	unsigned int i, j, count;
 	
 	if (n < 0)
 	{
