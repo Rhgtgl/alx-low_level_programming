@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_triangle - form a triangle
+ * print_triangle - create
  * @size: input parameter
  * Return: 0
  */
@@ -22,9 +22,9 @@ void print_triangle(int size)
 					_putchar('#');
 			}
 			n--;
-			_putchar('\n);
+			_putchar('\n');
 		}
 	}
 	else
-		_purchar('\n);
+		_purchar('\n');
 }
