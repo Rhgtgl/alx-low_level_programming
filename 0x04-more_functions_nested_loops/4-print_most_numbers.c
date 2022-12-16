@@ -2,17 +2,18 @@
 
 /**
  * print_most_numbers - print numbers
+ * Return: non
  */
 
 void print_most_numbers(void)
 {
-	int i;
+	int rhg;
 
-	for (i = 48; i < 58, i++)
+	for (rhg = 48; rhg < 58, i++)
 	{
-		if (i != 50 && i != 52)
+		if (rhg != 50 && rhg != 52)
 		{
-			_putchar(i);
+			_putchar(rhg);
 		}
 	}
 	_putchar('\n');
