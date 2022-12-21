@@ -3,6 +3,8 @@
 
 /**
  * print_buffer - function prints a buffer and others
+ *  byte position showing hexadecimal
+ *  displaying printable characters
  * @b: Input buffer character
  * @size: Number of bytes
  */
