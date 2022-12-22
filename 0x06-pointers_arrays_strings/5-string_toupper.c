@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * string-toupper - function change all to uppercase
+ * string_toupper - function change all to uppercase
  * @word: pointer to string
  * Return: Pointer to uppercase
  */
@@ -14,7 +14,7 @@ char *string_toupper(char *word)
 
 	while (word[length] != '\0')
 	{
-		if (word[length] >= 97 && word[length] = word[length] <= 122)
+		if (word[length] >= 97 && word[length] <= 122)
 		{
 			word[length] = word[length] - 32;
 		}
