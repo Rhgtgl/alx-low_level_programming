@@ -1,47 +1,32 @@
 #include "main.h"
 
 /**
- * evaluate_num - recursion loop
- * @num: num
- * @iterator: numberto iterate
+ * helper - square root of two numbers
+ * @a: the number
+ * @b: test character
+ * Return: square root
  */
-int evaluate_num(int num, int iterator)
+
+int helper(int a, int b)
 {
-	if (iterator == num - 1)
-	{
-		return (1);
-	}
-
-	else if (num % iterator == 0)
-	{
-		return (0);
-	}
-
-	if (num % iterator != 0)
-	{
-		return (evaluate_num(num, iterator + 1));
-	}
-
-	return (0);
+	if (b * b > a)
+		return (-1);
+	else if (b * b == a)
+		return (b);
+	else
+		return (helper(a, b + 1));
+	return (1);
 }
 
 /**
- *int is_prime_number _ function returns integer of a prime number
- * @num: input character
- * Return: 1 otherwise 0 
+ * _sqrt_recursion - return the natural square root  of a number
+ * @n: the number
+ * Return: the square root
  */
 
-int is_prime_number(int num)
+int _sqrt_recursion(int n)
 {
-	int iterator;
-	iterator = 2;
-	if (num < 2)
-	{
+	if (n == 0)
 		return (0);
-	}
-	if (num == 2)
-	{
-		return (1);
-	}
-	return (evaluate_num(num, iterator));
+	return (helper(n, 1));
 }
