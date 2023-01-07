@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+
 /**
  * main - function
  * @argc: length of argv
@@ -14,7 +15,7 @@ int main(int argc, char *argv[])
 
 	position = total = change = aux = 0;
 
-	if (argc ! = 2)
+	if (argc != 2)
 	{
 		printf("Error\n");
 		return (1);
