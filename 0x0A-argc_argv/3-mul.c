@@ -5,7 +5,7 @@
 /**
  * main - function multiplies two numbers
  * @argc: count
- * @argc: vector
+ * @argv: vector
  * Return: 0 otherwise 1
  */
 
