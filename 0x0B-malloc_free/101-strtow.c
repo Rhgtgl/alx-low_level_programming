@@ -10,7 +10,7 @@
 int count_word(char *s)
 {
 	int flag, c, w;
-
+	
 	flag = 0;
 	w = 0;
 
@@ -72,4 +72,5 @@ char **strtow(char *str)
 	matrix[k] = NULL;
 
 	return (matrix);
+}
 
