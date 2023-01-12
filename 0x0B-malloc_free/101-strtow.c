@@ -1,5 +1,5 @@
-#include "main.h"
 #include <stdlib.h>
+#include "main.h"
 
 /**
  * count_word - helper functions to count words
@@ -23,9 +23,9 @@ int count_word(char *s)
 			flag = 1;
 			w++;
 		}
-
-		return (w);
 	}
+
+	return (w);
 }
 
 /**
