@@ -34,7 +34,7 @@ int _isNumber(char *argv)
 }
 
 /**
- * _calloc - allocate arrays 
+ * _calloc - allocate arrays
  * @nmemb: number of element
  * @size: size of element
  * Return: pointer to array
@@ -60,8 +60,8 @@ void *_calloc(unsigned int nmemb, unsigned int size)
  * mul_array - multiply arrays
  * @a1: array
  * @len1: length of array
- * a2: char
- * a3: array for result
+ * @a2: char
+ * @a3: array for result
  * @lena: length of a3
  * Return: pointer to array
  **/
@@ -131,7 +131,7 @@ int main(int argc, char *argv[])
 		}
 		exit(98);
 	}
-	for(len1 = 0; argv[1][len1]; len1++)
+	for (len1 = 0; argv[1][len1]; len1++)
 	;
 	for (len2 = 0; argv[2][len2]; len2++)
 	;
