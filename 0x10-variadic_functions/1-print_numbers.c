@@ -2,7 +2,7 @@
 
 /**
  * print_numbers - function prints numbers
- * separator: pointer
+ * @separator: pointer
  * @n: character
  */
 
