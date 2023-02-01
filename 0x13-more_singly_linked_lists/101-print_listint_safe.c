@@ -2,8 +2,8 @@
 
 /**
  * print_listint_safe - function that prints a linked list with a loop safely.
- * @head: pointer to the 1st node of the linked list
- * Return: new_node
+ * @head: first node pointer
+ * Return: new node
  */
 
 size_t print_listint_safe(const listint_t *head)
@@ -27,12 +27,13 @@ size_t print_listint_safe(const listint_t *head)
 			{
 				printf("-> [%p] %d\n", (void *)tmp_n, tmp_n->n);
 				return (counter);
-			{
+			}
 			l_n = l_n->next;
 			new_n++;
-			}
-			if (!head)
-				exit(98);
 		}
-		return (counter);
+		if (!head)
+			exit(98);
+	}
+	return (counter);
+
 }
