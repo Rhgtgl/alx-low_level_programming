@@ -35,10 +35,7 @@ void check_elf(unsigned char *e_ident)
 
 	for (index = 0; index < 4; index++)
 	{
-		if (e_ident[index] != 127 &&
-		e_ident[index] != 'E' &&
-		e_ident[index] != 'L' &&
-	       	e_ident[index] != 'F')
+		if (e_ident[index] != 127 && e_ident[index] != 'E' && e_ident[index] != 'L' && e_ident[index] != 'F')
 		{
 			dprintf(STDERR_FILENO, "Error: Not an ELF file\n");
 			exit(98);
@@ -132,7 +129,7 @@ void print_version(unsigned char *e_ident)
 
 	switch (e_ident[EI_VERSION])
 	{
-	case EV_CURRENT:
+		case EV_CURRENT:
 		printf(" (current)\n");
 		break;
 	default:
